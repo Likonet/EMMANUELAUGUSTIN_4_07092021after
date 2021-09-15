@@ -6,7 +6,11 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-
+.image-resize-mode
+{
+    width: 100px;
+    height: 100px;
+}
 a,
 button {
     transition: all .3s ease-in-out;
@@ -302,9 +306,10 @@ a:hover {
 }
 
 .navbar-brand img {
-    max-height: 200px;
+    height: 40px;
     margin: 0 5px 0 0;
     display: inline;
+    width: 240px;
 }
 
 .navbar-brand img[src$=svg] {
@@ -741,6 +746,8 @@ h4 {
 
 .portfolio-thumb {
     margin-bottom: 24px;
+    height: 270px;
+    width: 270px;
 }
 
 .portfolio-row {
